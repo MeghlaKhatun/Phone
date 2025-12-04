@@ -1,0 +1,277 @@
+/* Css Index
+ ===============================
+ 1 Header Css
+ 2 Banner Css
+ 3 Contact Css
+*/
+
+
+
+/*
+ Landingpage Default css
+*/
+body {
+   margin: 0;
+   padding: 0;
+   font-size: 18px;
+   box-sizing: border-box;
+   font-family: "Montserrat", sans-serif;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+span,
+video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   background: transparent;
+}
+
+/******************************** End default css*******************************************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   margin: 0;
+   padding: 0;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+a {
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+.container {
+   max-width: 1300px;
+   margin: 0px auto;
+}
+
+/**************************************/
+/************ hero area*************/
+/************************************/
+.hero-section {
+   background-color: #14E3C7;
+   border-bottom-left-radius: 40px;
+   border-bottom-right-radius: 40px;
+   margin-bottom: -40px; 
+   position: relative;
+}
+
+.hero-section-content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 100px;
+}
+
+.hero-section-left {
+   flex: 1;
+}
+
+.hero-section-left h1 {
+   font-weight: 900;
+   color: Black;
+   font-size: 48px;
+}
+
+.hero-section-left h1 span {
+   color: #D9FFFA;
+}
+
+.hero-section-left h3 {
+   font-weight: 700;
+   font-size: 20px;
+   color: #004D44;
+   padding: 20px 0px 20px 0px;
+}
+
+.hero-section-left p {
+   font-weight: 400;
+   font-size: 16px;
+   color: #004D44;
+}
+
+.bullet-group {
+   padding: 43px 0px 40px 0px;
+}
+
+.bullet-group-content {
+   display: flex;
+   align-items: center;
+   gap: 6px;
+   background-color: #12C9B1;
+   margin-bottom: 2px;
+   padding: 5px;
+   border-radius: 15px;
+}
+
+.bullet-group-content img {
+   height: 30px;
+   width: 30px;
+}
+
+.bullet-group-content h4 {
+   font-weight: 700;
+   font-size: 20px;
+   color: #004D44;
+}
+
+.btn {
+   display: flex;
+   align-items: center;
+}
+
+.btn a {
+   background-color: #001A17;
+   padding: 22.5px 10px;
+   color: #D9FFFA;
+   font-weight: 700;
+   font-size: 22px;
+   border-radius: 20px;
+}
+
+.btn a span {
+   padding: 10px 16px;
+   background-color: #FFFFFF;
+   color: #A259FF;
+   font-weight: 800;
+   font-size: 29px;
+   text-transform: uppercase;
+   border-radius: 10px;
+   margin-left: 10px;
+}
+
+.hero-section-right {
+   flex: 1;
+   width: 804px;
+}
+
+.hero-section-right img {
+   margin-bottom: 0;   
+   display: block;
+}
+
+/**************************************/
+/************ hero area*************/
+/************************************/
+
+/**************************************/
+/************ footer area*************/
+/************************************/
+footer {
+   margin-top: 0;
+   padding-top: 70px; 
+   padding-bottom: 20px;
+   background-color: #001A17;
+}
+
+
+.footer-content {
+   display: flex;
+   justify-content: end;
+   align-items: center;
+}
+
+.footer-content h2 {
+   display: flex;
+   align-items: center;
+   font-weight: 700;
+   font-size: 20px;
+   color: #D9FFFA;
+   margin-right: 80px;
+}
+
+.footer-content h2 span {
+   color: #12CAB1;
+   margin-left: 5px;
+}
+
+.footer-content h2 img {
+   margin-left: 20px;
+   width: 140;
+   height: 40;
+}

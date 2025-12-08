@@ -145,6 +145,8 @@ a:hover {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   position: relative;  /* must */
+   overflow: visible;
    padding-top: 100px;
 }
 

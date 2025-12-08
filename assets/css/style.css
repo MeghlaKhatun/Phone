@@ -137,7 +137,7 @@ a:hover {
    background-color: #14E3C7;
    border-bottom-left-radius: 40px;
    border-bottom-right-radius: 40px;
-   margin-bottom: -40px; 
+   margin-bottom: -50px;
    position: relative;
 }
 
@@ -231,8 +231,19 @@ a:hover {
 }
 
 .hero-section-right img {
-   margin-bottom: 0;   
+   margin-bottom: 0;
    display: block;
+}
+
+.hero-bottom-fade {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 145px;
+   background: linear-gradient(180deg, rgba(20, 227, 199, 0) 0%, #14E3C7 100%);
+   border-bottom-left-radius: 40px;
+   border-bottom-right-radius: 40px;
 }
 
 /**************************************/
@@ -244,7 +255,7 @@ a:hover {
 /************************************/
 footer {
    margin-top: 0;
-   padding-top: 70px; 
+   padding-top: 70px;
    padding-bottom: 20px;
    background-color: #001A17;
 }
@@ -254,6 +265,7 @@ footer {
    display: flex;
    justify-content: end;
    align-items: center;
+   margin-right: 80px;
 }
 
 .footer-content h2 {
@@ -262,7 +274,6 @@ footer {
    font-weight: 700;
    font-size: 20px;
    color: #D9FFFA;
-   margin-right: 80px;
 }
 
 .footer-content h2 span {
@@ -270,7 +281,7 @@ footer {
    margin-left: 5px;
 }
 
-.footer-content h2 img {
+.footer-content a img {
    margin-left: 20px;
    width: 140;
    height: 40;

@@ -127,7 +127,9 @@ a:hover {
 
 .container {
    max-width: 1300px;
+   width: 100%;
    margin: 0px auto;
+   padding: 0px 20px;
 }
 
 /**************************************/
@@ -139,19 +141,19 @@ a:hover {
    border-bottom-right-radius: 40px;
    margin-bottom: -50px;
    position: relative;
+   width: 100%;
 }
 
 .hero-section-content {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   position: relative;  /* must */
+   position: relative;
    overflow: visible;
-   padding-top: 100px;
 }
 
 .hero-section-left {
-   flex: 1;
+   width: 45%;
 }
 
 .hero-section-left h1 {
@@ -207,17 +209,19 @@ a:hover {
    align-items: center;
 }
 
-.btn a {
+.btn h2 {
    background-color: #001A17;
-   padding: 22.5px 10px;
    color: #D9FFFA;
    font-weight: 700;
    font-size: 22px;
    border-radius: 20px;
+   padding: 10px 10px 10px 19px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
-.btn a span {
-   padding: 10px 16px;
+.btn h2 a {
    background-color: #FFFFFF;
    color: #A259FF;
    font-weight: 800;
@@ -225,14 +229,19 @@ a:hover {
    text-transform: uppercase;
    border-radius: 10px;
    margin-left: 10px;
+   padding: 6px 16px;
 }
 
-.hero-section-right {
-   flex: 1;
-   width: 804px;
+.right-section {
+   width: 55%;
 }
 
-.hero-section-right img {
+.main-image {
+   margin: 0px -100px;
+}
+
+.main-image img {
+   width: 100%;
    margin-bottom: 0;
    display: block;
 }
@@ -285,6 +294,6 @@ footer {
 
 .footer-content a img {
    margin-left: 20px;
-   width: 140;
-   height: 40;
+   width: 140px;
+   height: 40px;
 }

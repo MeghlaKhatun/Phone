@@ -162,4 +162,30 @@
 }
 
 
-@media (max-width: 375px) {}
+@media (max-width: 375px) {
+    .hero-bottom-fade {
+        bottom: 460px;
+    }
+
+    .bullet-group-content h4 {
+        font-size: 16px;
+    }
+
+    .bullet-group-content img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .btn h2 {
+        font-size: 16px;
+    }
+
+    .btn h2 a {
+        font-size: 16px;
+    }
+
+    .footer-content {
+        width: 80%;
+        margin: auto;
+    }
+}

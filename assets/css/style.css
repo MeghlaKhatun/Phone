@@ -233,11 +233,13 @@ a:hover {
 }
 
 .right-section {
-   width: 55%;
+    width: 55%;
+    overflow: hidden;
 }
 
 .main-image {
    margin: 0px -100px;
+   overflow: hidden;
 }
 
 .main-image img {
